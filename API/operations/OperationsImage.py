@@ -87,20 +87,5 @@ def get_image_by_process(process_id : str):
 
             
     
-"""
-Create
 
-{
-  "image_id": "1er345asha41",
-  "tag": "latest",
-  "name": "dockerfile_ls",
-  "idp": 1
-}
-Remember in the golang api:
-
-1.) change the images routes, for search an image by the image_id or docker id for the image, not for the id of the image into the database
-
-2.) Update the struct - tables for accept (into image) unique constraint into de pid or the process id 
-
-"""
 
